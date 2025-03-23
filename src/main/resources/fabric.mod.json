@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "hardware-spoof",
+	"version": "${version}",
+	"name": "Hardware Spoof",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hardware-spoof/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.kwesou.hardwarespoof.HardwareSpoofClient"
+		]
+	},
+	"mixins": [
+		"hardware-spoof.mixins.json",
+		{
+			"config": "hardware-spoof.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.19",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}

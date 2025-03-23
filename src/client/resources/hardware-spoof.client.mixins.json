@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.kwesou.hardwarespoof.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ChangeDebugMenu"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
