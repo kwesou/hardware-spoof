@@ -1,11 +1,13 @@
 {
-	"required": true,
-	"package": "com.kwesou.hardwarespoof.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ChangeDebugMenu"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kwesou.hardwareSpoof.client.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChangeCPUInfo",
+    "ChangeGPUInfo"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

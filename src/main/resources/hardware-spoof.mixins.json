@@ -1,11 +1,11 @@
 {
-	"required": true,
-	"package": "com.kwesou.hardwarespoof.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.kwesou.hardwareSpoof.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
